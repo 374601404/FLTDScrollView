@@ -1,0 +1,11 @@
+# Xcode
+build/
+xcuserdata
+xcshareddata
+*.xccheckout
+
+
+#CocoaPods
+Pods
+Podfile.lock
+YJPlayer.xcworkspace

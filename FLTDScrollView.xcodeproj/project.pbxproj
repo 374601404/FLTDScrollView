@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C610CDC121EF0A5800D89E87 /* CSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C610CDC021EF0A5800D89E87 /* CSubViewController.m */; };
 		C6B7EA9F21EC94D700DE0CC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B7EA9E21EC94D700DE0CC9 /* AppDelegate.m */; };
 		C6B7EAA221EC94D700DE0CC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B7EAA121EC94D700DE0CC9 /* ViewController.m */; };
 		C6B7EAA521EC94D700DE0CC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B7EAA321EC94D700DE0CC9 /* Main.storyboard */; };
 		C6B7EAA721EC94D800DE0CC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6B7EAA621EC94D800DE0CC9 /* Assets.xcassets */; };
 		C6B7EAAA21EC94D800DE0CC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B7EAA821EC94D800DE0CC9 /* LaunchScreen.storyboard */; };
 		C6B7EAAD21EC94D800DE0CC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B7EAAC21EC94D800DE0CC9 /* main.m */; };
+		C6B7EAE421EC9C4F00DE0CC9 /* FLTDTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B7EAD121EC9C4E00DE0CC9 /* FLTDTitle.m */; };
+		C6B7EAE521EC9C4F00DE0CC9 /* FLTDScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B7EAD321EC9C4E00DE0CC9 /* FLTDScrollPageView.m */; };
+		C6B7EAE621EC9C4F00DE0CC9 /* PopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B7EAD621EC9C4E00DE0CC9 /* PopAnimation.m */; };
+		C6B7EAE721EC9C4F00DE0CC9 /* UIViewController+FLTDScrollPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B7EAD721EC9C4E00DE0CC9 /* UIViewController+FLTDScrollPageController.m */; };
+		C6B7EAE821EC9C4F00DE0CC9 /* FLTDCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B7EAD821EC9C4E00DE0CC9 /* FLTDCollectionView.m */; };
+		C6B7EAE921EC9C4F00DE0CC9 /* FLTDSegementStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B7EAD921EC9C4E00DE0CC9 /* FLTDSegementStyle.m */; };
+		C6B7EAEA21EC9C4F00DE0CC9 /* FLTDContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B7EADA21EC9C4E00DE0CC9 /* FLTDContentView.m */; };
+		C6B7EAEB21EC9C4F00DE0CC9 /* FLTDTopSegementView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B7EADC21EC9C4E00DE0CC9 /* FLTDTopSegementView.m */; };
+		C6B7EAEC21EC9C4F00DE0CC9 /* NavigationInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B7EAE021EC9C4F00DE0CC9 /* NavigationInteractiveTransition.m */; };
+		C6B7EAF121EED58B00DE0CC9 /* ASubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B7EAF021EED58B00DE0CC9 /* ASubViewController.m */; };
+		C6B7EAF421EED59A00DE0CC9 /* BSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B7EAF321EED59A00DE0CC9 /* BSubViewController.m */; };
+		E1B1D7A7D987B05359E30FB4 /* libPods-FLTDScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 841ACDE32CF29E083F92786E /* libPods-FLTDScrollView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4763DCAB647BF6E930581A5C /* Pods-FLTDScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLTDScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLTDScrollView/Pods-FLTDScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		841ACDE32CF29E083F92786E /* libPods-FLTDScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FLTDScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B71BD80C63477C2E94B3AE8B /* Pods-FLTDScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLTDScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLTDScrollView/Pods-FLTDScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		C610CDBF21EF0A5800D89E87 /* CSubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSubViewController.h; sourceTree = "<group>"; };
+		C610CDC021EF0A5800D89E87 /* CSubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSubViewController.m; sourceTree = "<group>"; };
 		C6B7EA9A21EC94D700DE0CC9 /* FLTDScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLTDScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6B7EA9D21EC94D700DE0CC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C6B7EA9E21EC94D700DE0CC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +44,29 @@
 		C6B7EAA921EC94D800DE0CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6B7EAAB21EC94D800DE0CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6B7EAAC21EC94D800DE0CC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6B7EAD121EC9C4E00DE0CC9 /* FLTDTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLTDTitle.m; sourceTree = "<group>"; };
+		C6B7EAD221EC9C4E00DE0CC9 /* FLTDScrollPageDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLTDScrollPageDelegate.h; sourceTree = "<group>"; };
+		C6B7EAD321EC9C4E00DE0CC9 /* FLTDScrollPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLTDScrollPageView.m; sourceTree = "<group>"; };
+		C6B7EAD421EC9C4E00DE0CC9 /* FLTDTopSegementView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLTDTopSegementView.h; sourceTree = "<group>"; };
+		C6B7EAD521EC9C4E00DE0CC9 /* NavigationInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationInteractiveTransition.h; sourceTree = "<group>"; };
+		C6B7EAD621EC9C4E00DE0CC9 /* PopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopAnimation.m; sourceTree = "<group>"; };
+		C6B7EAD721EC9C4E00DE0CC9 /* UIViewController+FLTDScrollPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FLTDScrollPageController.m"; sourceTree = "<group>"; };
+		C6B7EAD821EC9C4E00DE0CC9 /* FLTDCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLTDCollectionView.m; sourceTree = "<group>"; };
+		C6B7EAD921EC9C4E00DE0CC9 /* FLTDSegementStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLTDSegementStyle.m; sourceTree = "<group>"; };
+		C6B7EADA21EC9C4E00DE0CC9 /* FLTDContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLTDContentView.m; sourceTree = "<group>"; };
+		C6B7EADB21EC9C4E00DE0CC9 /* FLTDTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLTDTitle.h; sourceTree = "<group>"; };
+		C6B7EADC21EC9C4E00DE0CC9 /* FLTDTopSegementView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLTDTopSegementView.m; sourceTree = "<group>"; };
+		C6B7EADD21EC9C4F00DE0CC9 /* FLTDScrollPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLTDScrollPageView.h; sourceTree = "<group>"; };
+		C6B7EADE21EC9C4F00DE0CC9 /* UIViewController+FLTDScrollPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FLTDScrollPageController.h"; sourceTree = "<group>"; };
+		C6B7EADF21EC9C4F00DE0CC9 /* PopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopAnimation.h; sourceTree = "<group>"; };
+		C6B7EAE021EC9C4F00DE0CC9 /* NavigationInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationInteractiveTransition.m; sourceTree = "<group>"; };
+		C6B7EAE121EC9C4F00DE0CC9 /* FLTDSegementStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLTDSegementStyle.h; sourceTree = "<group>"; };
+		C6B7EAE221EC9C4F00DE0CC9 /* FLTDContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLTDContentView.h; sourceTree = "<group>"; };
+		C6B7EAE321EC9C4F00DE0CC9 /* FLTDCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLTDCollectionView.h; sourceTree = "<group>"; };
+		C6B7EAEF21EED58B00DE0CC9 /* ASubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASubViewController.h; sourceTree = "<group>"; };
+		C6B7EAF021EED58B00DE0CC9 /* ASubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASubViewController.m; sourceTree = "<group>"; };
+		C6B7EAF221EED59A00DE0CC9 /* BSubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSubViewController.h; sourceTree = "<group>"; };
+		C6B7EAF321EED59A00DE0CC9 /* BSubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSubViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +74,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1B1D7A7D987B05359E30FB4 /* libPods-FLTDScrollView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DA856B3AF2DF5559C37B7FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				841ACDE32CF29E083F92786E /* libPods-FLTDScrollView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C6B7EA9121EC94D700DE0CC9 = {
 			isa = PBXGroup;
 			children = (
 				C6B7EA9C21EC94D700DE0CC9 /* FLTDScrollView */,
 				C6B7EA9B21EC94D700DE0CC9 /* Products */,
+				E529B2833E9388F53DC88E4B /* Pods */,
+				1DA856B3AF2DF5559C37B7FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +110,7 @@
 		C6B7EA9C21EC94D700DE0CC9 /* FLTDScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				C6B7EAD021EC9C4E00DE0CC9 /* Classes */,
 				C6B7EA9D21EC94D700DE0CC9 /* AppDelegate.h */,
 				C6B7EA9E21EC94D700DE0CC9 /* AppDelegate.m */,
 				C6B7EAA021EC94D700DE0CC9 /* ViewController.h */,
@@ -67,8 +120,49 @@
 				C6B7EAA821EC94D800DE0CC9 /* LaunchScreen.storyboard */,
 				C6B7EAAB21EC94D800DE0CC9 /* Info.plist */,
 				C6B7EAAC21EC94D800DE0CC9 /* main.m */,
+				C6B7EAEF21EED58B00DE0CC9 /* ASubViewController.h */,
+				C6B7EAF021EED58B00DE0CC9 /* ASubViewController.m */,
+				C6B7EAF221EED59A00DE0CC9 /* BSubViewController.h */,
+				C6B7EAF321EED59A00DE0CC9 /* BSubViewController.m */,
+				C610CDBF21EF0A5800D89E87 /* CSubViewController.h */,
+				C610CDC021EF0A5800D89E87 /* CSubViewController.m */,
 			);
 			path = FLTDScrollView;
+			sourceTree = "<group>";
+		};
+		C6B7EAD021EC9C4E00DE0CC9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C6B7EADF21EC9C4F00DE0CC9 /* PopAnimation.h */,
+				C6B7EAD621EC9C4E00DE0CC9 /* PopAnimation.m */,
+				C6B7EAD521EC9C4E00DE0CC9 /* NavigationInteractiveTransition.h */,
+				C6B7EAE021EC9C4F00DE0CC9 /* NavigationInteractiveTransition.m */,
+				C6B7EAD221EC9C4E00DE0CC9 /* FLTDScrollPageDelegate.h */,
+				C6B7EADD21EC9C4F00DE0CC9 /* FLTDScrollPageView.h */,
+				C6B7EAD321EC9C4E00DE0CC9 /* FLTDScrollPageView.m */,
+				C6B7EAE121EC9C4F00DE0CC9 /* FLTDSegementStyle.h */,
+				C6B7EAD921EC9C4E00DE0CC9 /* FLTDSegementStyle.m */,
+				C6B7EAD421EC9C4E00DE0CC9 /* FLTDTopSegementView.h */,
+				C6B7EADC21EC9C4E00DE0CC9 /* FLTDTopSegementView.m */,
+				C6B7EAE221EC9C4F00DE0CC9 /* FLTDContentView.h */,
+				C6B7EADA21EC9C4E00DE0CC9 /* FLTDContentView.m */,
+				C6B7EADB21EC9C4E00DE0CC9 /* FLTDTitle.h */,
+				C6B7EAD121EC9C4E00DE0CC9 /* FLTDTitle.m */,
+				C6B7EADE21EC9C4F00DE0CC9 /* UIViewController+FLTDScrollPageController.h */,
+				C6B7EAD721EC9C4E00DE0CC9 /* UIViewController+FLTDScrollPageController.m */,
+				C6B7EAE321EC9C4F00DE0CC9 /* FLTDCollectionView.h */,
+				C6B7EAD821EC9C4E00DE0CC9 /* FLTDCollectionView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E529B2833E9388F53DC88E4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4763DCAB647BF6E930581A5C /* Pods-FLTDScrollView.debug.xcconfig */,
+				B71BD80C63477C2E94B3AE8B /* Pods-FLTDScrollView.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +172,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6B7EAB021EC94D900DE0CC9 /* Build configuration list for PBXNativeTarget "FLTDScrollView" */;
 			buildPhases = (
+				03E1CF76D7AB229A0BE1E2DD /* [CP] Check Pods Manifest.lock */,
 				C6B7EA9621EC94D700DE0CC9 /* Sources */,
 				C6B7EA9721EC94D700DE0CC9 /* Frameworks */,
 				C6B7EA9821EC94D700DE0CC9 /* Resources */,
@@ -136,14 +231,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03E1CF76D7AB229A0BE1E2DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FLTDScrollView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C6B7EA9621EC94D700DE0CC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6B7EAE821EC9C4F00DE0CC9 /* FLTDCollectionView.m in Sources */,
+				C6B7EAEB21EC9C4F00DE0CC9 /* FLTDTopSegementView.m in Sources */,
+				C6B7EAE521EC9C4F00DE0CC9 /* FLTDScrollPageView.m in Sources */,
+				C6B7EAF121EED58B00DE0CC9 /* ASubViewController.m in Sources */,
+				C610CDC121EF0A5800D89E87 /* CSubViewController.m in Sources */,
+				C6B7EAEC21EC9C4F00DE0CC9 /* NavigationInteractiveTransition.m in Sources */,
 				C6B7EAA221EC94D700DE0CC9 /* ViewController.m in Sources */,
+				C6B7EAE621EC9C4F00DE0CC9 /* PopAnimation.m in Sources */,
 				C6B7EAAD21EC94D800DE0CC9 /* main.m in Sources */,
+				C6B7EAE721EC9C4F00DE0CC9 /* UIViewController+FLTDScrollPageController.m in Sources */,
+				C6B7EAE421EC9C4F00DE0CC9 /* FLTDTitle.m in Sources */,
 				C6B7EA9F21EC94D700DE0CC9 /* AppDelegate.m in Sources */,
+				C6B7EAEA21EC9C4F00DE0CC9 /* FLTDContentView.m in Sources */,
+				C6B7EAF421EED59A00DE0CC9 /* BSubViewController.m in Sources */,
+				C6B7EAE921EC9C4F00DE0CC9 /* FLTDSegementStyle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +411,7 @@
 		};
 		C6B7EAB121EC94D900DE0CC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4763DCAB647BF6E930581A5C /* Pods-FLTDScrollView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +429,7 @@
 		};
 		C6B7EAB221EC94D900DE0CC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B71BD80C63477C2E94B3AE8B /* Pods-FLTDScrollView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
