@@ -47,7 +47,7 @@
 
 - (FLTDContentView *)contentView{
     if (!_contentView) {
-        FLTDContentView *view = [[FLTDContentView alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(self.segementView.frame), self.bounds.size.width, self.bounds.size.height - self.style.segementViewHeight) segementStyle:_style segementView:self.segementView parentViewController:self.parentViewController delegate:self.delegate];
+        FLTDContentView *view = [[FLTDContentView alloc] initWithFrame:CGRectMake(0,self.style.segementViewHeight, self.bounds.size.width, self.bounds.size.height - self.style.segementViewHeight) segementStyle:_style segementView:self.segementView parentViewController:self.parentViewController delegate:self.delegate];
         _contentView = view;
     }
     return _contentView;

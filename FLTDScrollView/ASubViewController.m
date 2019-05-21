@@ -32,8 +32,8 @@
 
 - (void)pushAction{
     CSubViewController *vC = [[CSubViewController alloc] init];
-//    [self.navigationController pushViewController:vC animated:YES];
-    [self presentViewController:vC animated:YES completion:nil];
+    [self.navigationController pushViewController:vC animated:YES];
+//    [self presentViewController:vC animated:YES completion:nil];
 }
 
 

@@ -15,6 +15,7 @@
 #define SCREEN_WIDTH            ([UIScreen mainScreen].bounds.size.width)
 #define SCREEN_HEIGHT           ([UIScreen mainScreen].bounds.size.height)
 #define kStatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height //状态栏高度
+#define kNavigationBarHeight 44
 
 @interface ViewController ()<FLTDScrollPageDelegate>
 
@@ -42,13 +43,16 @@
     _pageView = [[FLTDScrollPageView alloc] initWithFrame:CGRectMake(0, kStatusBarHeight, SCREEN_WIDTH, SCREEN_HEIGHT - kStatusBarHeight) segementStyle:style titles:self.titlesArr parentViewController:self delegate:self];
     [_pageView setSelectedIndex:0 animated:NO];
     [self.view addSubview:_pageView];
+    [self.pageView.segementView removeFromSuperview];
+    self.navigationItem.titleView = self.pageView.segementView;
     //开启手势返回
     self.navigationController.interactivePopGestureRecognizer.enabled = YES;
+    //UIScrollview适配
+    self.pageView.contentView.collectionView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
 }
 
 - (void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
-    [self.navigationController setNavigationBarHidden:YES];
 }
 
 #pragma mark - FLTDScrollPageDelegate
